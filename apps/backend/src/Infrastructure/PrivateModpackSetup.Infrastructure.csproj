@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\PrivateModpackSetup.Application.csproj" />
+    <ProjectReference Include="..\Domain\PrivateModpackSetup.Domain.csproj" />
+    <ProjectReference Include="..\..\..\..\components\providers\PrivateModpackSetup.Providers.csproj" />
+    <ProjectReference Include="..\..\..\..\components\modpack\PrivateModpackSetup.Modpack.csproj" />
+    <ProjectReference Include="..\..\..\..\components\installer\PrivateModpackSetup.Installer.csproj" />
+    <ProjectReference Include="..\..\..\..\components\instance-manager\PrivateModpackSetup.InstanceManager.csproj" />
+  </ItemGroup>
+
+</Project>

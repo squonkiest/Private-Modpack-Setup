@@ -11,4 +11,4 @@ The project is strictly for personal use and private multiplayer sessions. It is
 
 I am building it as a practical home-lab and software development project, with an emphasis on automation, reproducibility, and reducing the time required to set up and test modpacks.
 
-The project is currently in the feasibility assessment stage, and no repository has been created yet. I would like to validate the core functionality with a small proof of concept before committing to full development. I can provide a repository URL once initial development begins.
+The repository now contains an initial C# API solution under `apps/backend` and reusable component projects under `components`. The API is the current development focus. Provider integrations, modpack resolution, installation, persistence, and server management are planned but are not implemented yet.
