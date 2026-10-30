@@ -1,0 +1,6 @@
+@PrivateModpackSetup.Api_HostAddress = https://localhost:7000
+
+GET {{PrivateModpackSetup.Api_HostAddress}}/health
+Accept: application/json
+
+###
